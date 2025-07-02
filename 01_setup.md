@@ -12,3 +12,28 @@
 project-root/
 ├── notes/
 └── code/
+
+
+## 🌱 Git Basics
+
+### Git Commands Used
+
+```bash
+# Initialize a Git repository
+git init
+
+# Check repository status
+git status
+
+# Add file(s) to staging area
+git add <filename>
+
+# Commit changes with a message
+git commit -m "Your message here"
+
+# Add remote origin (for pushing to an existing GitHub repo)
+git remote add origin https://github.com/your-username/your-repo.git
+
+# Push committed changes to GitHub (main branch)
+git push -u origin main
+
